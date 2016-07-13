@@ -1,0 +1,35 @@
+{
+  "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
+  "name": "@you21979/bittrex.com",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "bluebird" : "3.4.x",
+    "@you21979/simple-verify" : "0.0.x",
+    "limit-request-promise" : "0.0.x"
+  },
+  "readmeFilename": "README.md",
+  "description": "bittrex.com trade api for promise",
+  "main": "index.js",
+  "devDependencies": {
+    "moment" : "",
+    "mocha" : "",
+    "power-assert" : ""
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/you21979/node-bittrex.git"
+  },
+  "keywords": [
+    "trade api",
+    "bitcoin",
+    "bittrex"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/you21979/node-bittrex/issues"
+  }
+}
