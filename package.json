@@ -1,7 +1,7 @@
 {
   "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
   "name": "@you21979/bittrex.com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "dependencies": {
     "bluebird" : "3.4.x",
