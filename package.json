@@ -1,7 +1,7 @@
 {
   "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
   "name": "@you21979/bittrex.com",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "dependencies": {
     "bluebird" : "3.4.x",
@@ -12,7 +12,7 @@
     "request": "^2.34"
   },
   "readmeFilename": "README.md",
-  "description": "Promise-base Cryptocurrency Exchange Poloniex.com API for node.js",
+  "description": "Promise-base Cryptocurrency Exchange bittrex.com API for node.js",
   "main": "index.js",
   "devDependencies": {
     "local-echoserver" : "",
