@@ -16,7 +16,32 @@ npm i @you21979/bittrex.com
 
 * https://bittrex.com/Home/Api
 
+## public api
 
+```
+var bittrex = require('@you21979/bittrex.com')
+var api = bittrex.PublicApi;
+api.getMarketSummaries().then(console.log)
+```
+
+## private api
+
+* account.json
+
+```
+{
+  "APIKEY":"",
+  "SECRET":""
+}
+```
+
+```
+var bittrex = require('@you21979/bittrex.com')
+var fs = require('fs');
+var config = JSON.parse(fs.readFileSync("./account.json", "utf8"));
+var api = bittrex.createPrivateApi(config.APIKEY, config.SECRET, "I am Bot")
+api.getBalances().then(console.log)
+```
 
 ## Error Handling
 
